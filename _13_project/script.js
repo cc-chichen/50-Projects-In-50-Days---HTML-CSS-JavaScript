@@ -34,6 +34,7 @@ function createTags(input) {
 function randomSelect() {
   const tmp = document.querySelectorAll('.tag');
   const times = tmp.length;
+
   const interval = setInterval(() => {
     const randTag = pickRandomTag();
     highlightTag(randTag);
